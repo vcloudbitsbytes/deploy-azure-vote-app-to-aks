@@ -12,7 +12,9 @@ Two Kubernetes Services are also created:
 * An external service to access the Azure Vote application from the internet.
 
 ## Code
-`git clone https://github.com/vcloudbitsbytes/deploy-azure-vote-app-to-aks.git`
-`cd configuring-aks`
-`kubectl apply -f azure-vote.yml`
-`kubectl get service azure-vote-front`
+```
+git clone https://github.com/vcloudbitsbytes/deploy-azure-vote-app-to-aks.git
+cd configuring-aks
+kubectl apply -f azure-vote.yml
+kubectl get service azure-vote-front
+```
